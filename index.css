@@ -4,7 +4,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+   
 }
 
 body {
@@ -16,13 +16,15 @@ body {
 }
 
 .container {
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto;
     background-color: white;
-    width: 600px;
-    box-shadow: 0 4px 16px 0 gray, 0 4px 16px 0 gray;
+    /* width: 600px; */
+    /* box-shadow: 0 4px 16px 0 gray, 0 4px 16px 0 gray; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 10px;
 
 }
 
@@ -54,7 +56,14 @@ body {
     border: 0px;
     font-weight: 400;
 }
-
+.red-dot{
+    height: 8px;
+    margin-left: 3px;
+    width: 8px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    display: inline-block;
+}
 .first {
     background-color: hsl(210, 60%, 98%);
     display: flex;
@@ -63,10 +72,15 @@ body {
     font-size: 14px;
     color: hsl(219, 14%, 63%);
     font-weight: 200;
+    border-radius: 6px;
+     /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+    
 
 
 }
-
+ .inner p{
+    margin-bottom:5px;
+}
 .first .inner {
     display: flex;
     flex-direction: column;
@@ -97,6 +111,7 @@ body {
     font-size: 14px;
     color: hsl(219, 14%, 63%);
     font-weight: 200;
+    border-radius: 6px;
 }
 
 .second .inner {
@@ -123,6 +138,7 @@ body {
     font-size: 14px;
     color: hsl(219, 14%, 63%);
     font-weight: 200;
+    border-radius: 6px;
 }
 
 .third .inner {
@@ -147,7 +163,7 @@ body {
 }
 
 .fourth {
-    background-color: hsl(210, 60%, 98%);
+    /* background-color: hsl(210, 60%, 98%); */
     display: flex;
     padding: 12px;
     margin: 10px 10px 10px 10px;
@@ -184,7 +200,7 @@ body {
 }
 
 .fifth {
-    background-color: hsl(210, 60%, 98%);
+    /* background-color: hsl(210, 60%, 98%); */
     display: flex;
     padding: 12px;
     margin: 10px 10px 10px 10px;
@@ -219,7 +235,7 @@ body {
 }
 
 .sixth {
-    background-color: hsl(210, 60%, 98%);
+    /* background-color: hsl(210, 60%, 98%); */
     display: flex;
     padding: 12px;
     margin: 10px 10px 10px 10px;
@@ -251,7 +267,7 @@ body {
 }
 
 .seventh {
-    background-color: hsl(210, 60%, 98%);
+    /* background-color: hsl(210, 60%, 98%); */
     display: flex;
     padding: 12px;
     margin: 10px 10px 10px 10px;
@@ -280,3 +296,18 @@ body {
 
 
 }
+#name:hover{
+    color: hsl(219, 85%, 26%);
+}
+/* Red: hsl(1, 90%, 64%)
+- Blue: hsl(219, 85%, 26%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Very light grayish blue: hsl(210, 60%, 98%)
+- Light grayish blue 1: hsl(211, 68%, 94%)
+- Light grayish blue 2: hsl(205, 33%, 90%)
+- Grayish blue: hsl(219, 14%, 63%)
+- Dark grayish blue: hsl(219, 12%, 42%)
+- Very dark blue: hsl(224, 21%, 14%) */
