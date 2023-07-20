@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+body {
+    background-color: hsl(210, 60%, 98%);
+    /* Use a hex code or a named color for better performance */
+    display: flex;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    width: 600px;
+    box-shadow: 0 4px 16px 0 gray, 0 4px 16px 0 gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar #first {
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    height: 19px;
+    margin-top: 21px;
+    border: 0px;
+    width: 22px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+.navbar h3 {
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.navbar #second {
+    margin-left: 320px;
+    background-color: hsl(0, 0%, 100%);
+    border: 0px;
+    font-weight: 400;
+}
+
+.first {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    padding: 12px;
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+    font-weight: 200;
+
+
+}
+
+.first .inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.first img {
+    margin-right: 12px;
+    margin-top: 5px;
+    height: 50px;
+
+}
+
+.first #name {
+    font-weight: 900;
+    color: black;
+}
+
+.first #txt {
+    font-weight: 700;
+    color: hsl(219, 12%, 42%);
+}
+
+.second {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    padding: 12px;
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+    font-weight: 200;
+}
+
+.second .inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.second img {
+    margin-right: 12px;
+    margin-top: 5px;
+    height: 50px;
+}
+
+.second #name {
+    font-weight: 900;
+    color: black;
+}
+
+.third {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    padding: 12px;
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+    font-weight: 200;
+}
+
+.third .inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.third img {
+    margin-right: 12px;
+    margin-top: 5px;
+    height: 50px;
+}
+
+.third #name {
+    font-weight: 900;
+    color: black;
+}
+
+.third #txt {
+    color: hsl(219, 85%, 26%);
+    font-weight: 700;
+}
+
+.fourth {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    padding: 12px;
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+    font-weight: 200;
+}
+
+.fourth .inner {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fourth img {
+    margin-right: 12px;
+    margin-top: 5px;
+    height: 50px;
+
+
+}
+
+.fourth #name {
+    font-weight: 900;
+    color: black;
+
+
+}
+
+.fourth .txt {
+    border: 1px solid hsl(219, 14%, 63%);
+    padding: 12px 12px 12px 12px;
+    margin-top: 12px
+}
+
+.fifth {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    padding: 12px;
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+    font-weight: 200;
+}
+
+.fifth .inner {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fifth img {
+    margin-right: 12px;
+    margin-top: 5px;
+    height: 50px;
+
+
+}
+
+.fifth #name {
+    font-weight: 900;
+    color: black;
+
+
+}
+
+.fifth #img2 {
+    margin-left: 138px;
+}
+
+.sixth {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    padding: 12px;
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+    font-weight: 200;
+}
+
+.sixth .inner {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.sixth img {
+    margin-right: 12px;
+    margin-top: 5px;
+    height: 50px;
+
+
+}
+
+.sixth #name {
+    font-weight: 900;
+    color: black;
+
+
+}
+
+.seventh {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    padding: 12px;
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+    font-weight: 200;
+}
+
+.seventh .inner {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.seventh img {
+    margin-right: 12px;
+    margin-top: 5px;
+    height: 50px;
+
+
+}
+
+.seventh #name {
+    font-weight: 900;
+    color: black;
+
+
+}
